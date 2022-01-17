@@ -1,0 +1,165 @@
+// @media (max-width: 320px) {
+//     .header {
+//         font-size: 8px;
+//     }
+// }
+// @media (max-width: 576px) { 
+//     .container {
+//         margin: 5px 15px;
+//     }
+//     .listitems {
+//         height: 198px;
+//     }
+//     .header {
+//         font-size: 11px;
+//     }
+//     .container-full {
+//         height: 105px;
+//     }
+//     .title__list {
+//         margin-top: 10px;
+//     }
+//     .column__footer {
+//         & li {
+//             padding: 0 6px;
+//             font-size: 11px;
+//         }
+//     }
+//     .banner__desc {
+//         top: 22%;
+//         left: 54px;
+//         & h1 {
+//             font-size: 25px;
+//         }
+//         & button {
+//             padding: 4px 7px;
+//             font-size: 14px;
+//             & .snow ,.snow1 {
+//                 width: 40px;
+//             }
+
+//         }
+//     }
+//     .items {
+//         grid-template-columns: 1fr 1fr;
+//         grid-gap: 5px;
+//     }
+
+//  }
+
+// // Extra small devices (portrait phones, less than 576px)
+// // @media (max-width: 575.98px) { 
+// //     .header {
+// //         font-size: 8px;
+// //     }
+// //     .listitems {
+// //         height: 150px;
+// //     }
+// //     .listsale {
+// //         grid-template-rows: 62px;
+// //     }
+    
+// //     .column__footer {
+// //         & li {
+// //             font-size: 9px;
+// //         }
+// //     }
+// //     .items {
+// //         grid-gap: 5px;
+// //         grid-template-columns: 1fr 1fr;
+// //     }
+// //  }
+
+//  @media (min-width: 100px) and (max-width: 360px) {
+//     .header {
+//         font-size: 6px;
+//     }
+//     .title__list {
+//         margin: 0;
+//     }
+//     .listitems {
+//         height: 203px;
+//     }
+//     .listsale {
+//         grid-template-rows: 60px;
+//     }
+//     .banner__desc {
+//         & p {
+//             font-size: 8px;
+//         }
+//         & h1 {
+//             font-size: 14px;
+//         }
+//         & button {
+//             font-size: 9px;
+//             padding: 1px 1px;
+//             & .snow, .snow1 {
+//                 width: 21px;
+//             }
+//             & .snow {
+//                 top: -5px;
+//             }
+//         }
+//     }
+//     .column__footer {
+//         & ul {
+//             padding:  0;
+//         }
+//         & li {
+//             padding: 0 4px;
+//             font-size: 9px;
+//         }
+//     }
+//  }
+// // Small devices (landscape phones, 576px and up)
+// // @media (min-width: 576px) and (max-width: 767.98px) { 
+// //     .listitems {
+// //         height: 200px;
+// //     }
+// //     .column__footer {
+// //         & li {
+// //             font-size: 9px;
+// //         }
+// //     }
+// //  }
+
+// // Medium devices (tablets, 768px and up)
+// @media (min-width: 768px) and (max-width: 991.98px) { 
+//     .listitems {
+//         height: 220px;
+//     }
+//  }
+
+// // Large devices (desktops, 992px and up)
+// @media (min-width: 992px) and (max-width: 1024px) { 
+//     .listitems {
+//         height: 0px;
+//     }
+//  }
+
+// Extra large devices (large desktops, 1200px and up)
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { 
+
+ }
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) { 
+
+ }
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) { 
+
+ }
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) { 
+    .listitems {
+        height: 0px;
+    }
+ }
+
+// Extra large devices (large desktops)
+// No media query since the extra-large breakpoint has no upper bound on its width

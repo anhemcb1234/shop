@@ -1,0 +1,13 @@
+@mixin text {
+    & p {
+        font-weight: 600;
+    }
+    & span {
+        font-weight: 100;
+        opacity: 0.8;
+    }
+}
+@mixin img {
+    cursor: pointer;
+    background-color: #f8f6f7;
+}
